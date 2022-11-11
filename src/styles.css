@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+.cats-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  color: #fff;
+  background: navy;
+  overflow: auto;
+}
+
+.cats-nav__item {
+  margin: 0 0 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cats-nav__item.--active {
+  color: cadetblue;
+}
+
+.cats-nav h4 {
+  margin: 0;
+}
+
+.cats-nav img {
+  width: 100%;
+  height: auto;
+}
+
+.admin-cat-form.hidden {
+  display: none;
+}
